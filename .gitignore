@@ -1,0 +1,53 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables and local configuration
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Python profiling / cache
+*.prof
+.cache/
+
+# Large local or generated datasets
+# Uncomment patterns only when appropriate for the project.
+# *.grd
+# *.nc
+# *.tif
+# *.xyz
