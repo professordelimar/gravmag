@@ -1,0 +1,10 @@
+[project]
+name = "my-geophysics-package"
+version = "1.0.0"
+description = "Integrated geophysical modelling and interpretation routines"
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gravmag_codes*"]
